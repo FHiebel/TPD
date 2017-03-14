@@ -1,0 +1,21 @@
+#Goal and technical background:
+
+Analyse a series of temperature programmed desorption spectra (mass spectrometer signal versus time) acquired for different doses in order to calibrate the dosage to surface coverage relationship. 
+
+The spectra consist of mass spectrometer signal (arb. u.) versus time (t). During an experiment, the temperature (T) is ramped up at a constant rate so that T=beta * t.
+Dosage is expressed in Langmuirs (L). 1 L= 1. 10^-6 mbar.s 
+Note: Another parameter can come into play in quantifying the dosage depending on what is dosed on the surface: in some experiments atomic O is dosed from the thermal cracking of O2. The filament power in the cracker controls the fraction of O/O2 to which the surface is exposed and thus the eventual O dose. This is specific to this example.
+
+
+#Utilisation:
+
+#Code Structure:
+#Input: 
+- file stem ()
+- number of experiments
+-
+with exception handling
+
+#
+
+
