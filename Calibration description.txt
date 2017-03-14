@@ -6,16 +6,6 @@ The spectra consist of mass spectrometer signal (arb. u.) versus time (t). Durin
 Dosage is expressed in Langmuirs (L). 1 L= 1. 10^-6 mbar.s 
 Note: Another parameter can come into play in quantifying the dosage depending on what is dosed on the surface: in some experiments atomic O is dosed from the thermal cracking of O2. The filament power in the cracker controls the fraction of O/O2 to which the surface is exposed and thus the eventual O dose. This is specific to this example.
 
-
-#Utilisation:
-
-#Code Structure:
-#Input: 
-- file stem ()
-- number of experiments
--
-with exception handling
-
-#
-
+"EELS" dosage is in seconds (s) 
+"ESPEC" dosage is in L, filament power is not yet accounted for
 
